@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  background-color: #0A0C1B;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-box {
+  background-color: #1B1736;
+  min-height: 85vh;
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.img-box {
+  background-color: #9952C4;
+}
+
+.img-box img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.content-box {
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+
+.upper-content h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0px 11px 0px 11px;
+  margin-bottom: 1em;
+}
+
+.upper-content span {
+  color: #ac54d7;
+}
+
+.upper-content p {
+  text-align: center;
+  color: #9594A8;
+  line-height: 20px;
+  font-size: 0.94rem;
+}
+
+.lower-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+}
+
+.lower-content p {
+  text-transform: uppercase;
+  color: #9594A8;
+  font-size: 0.8rem;
+}
+
+.lower-content h2 {
+  margin-bottom: 0.3em;
+}
