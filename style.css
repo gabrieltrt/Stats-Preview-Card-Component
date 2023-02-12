@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; */
-
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +20,9 @@ body {
 
 .main-box {
   background-color: #1B1736;
-  max-width: 380px;
+  max-width: 327px;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 8px;
   overflow: hidden;
   
 }
@@ -46,20 +43,17 @@ body {
 }
 
 .content-box {
-  padding: 2em 1em;
+  padding: 2.5em 1.97em 2em 1.97em;
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 40px;
   align-items: center;
-}
-
-.upper-content {
-  max-width: 256px;
 }
 
 .upper-content h1 {
   text-align: center;
-  font-size: 1.750rem;
+  font-size: 1.73rem;
+  line-height: 1.4;
   
 }
 
@@ -69,27 +63,29 @@ body {
 
 .upper-content p {
   text-align: center;
-  color: #9594A8;
-  line-height: 20px;
+  color: #FFFFFF;
+  line-height: 1.8;
   font-size: 0.94rem;
-  margin-top: 1em;
+  margin-top: 1.07em;
+  opacity: 0.75;
 }
 
 .lower-content {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 60px;
+  gap: 24px;
 }
 
 .lower-content p {
   text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
   color: #9594A8;
   font-size: 0.8rem;
 }
 
 .lower-content h2 {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.085em;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -97,8 +93,7 @@ body {
 .main-box {
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1050px;
-  height: 410px;
+  max-width: 1110px;
 }
 
 .img-box {
@@ -107,29 +102,27 @@ body {
 
 .content-box {
   width: 50%;
-  padding: 3em 3em;
+  padding: 4.438em 5.9375em 3.7em 4.5em;
   align-items: initial;
-}
-
-.upper-content {
-  max-width: none;
+  gap: 72px;
 }
 
 .upper-content h1 {
   text-align: initial;
+  font-size: 2.25rem;
 }
 
 .upper-content p {
   text-align: initial;
-  line-height: 1.6;
+  line-height: 1.7;
   color: hsla(0, 0%, 100%, 0.75);
-  margin: 3em 0em;
+  margin: 1.665em 0em 0em 0em;
 }
 
 .lower-content {
   flex-direction: row;
   text-align: initial;
+  gap: 61.5px;
 }
-
 
 }
